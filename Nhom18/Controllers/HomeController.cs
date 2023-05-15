@@ -1,8 +1,8 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using Nhom18BTL.Models;
+using Nhom18.Models;
 
-namespace Nhom18BTL.Controllers;
+namespace Nhom18.Controllers;
 
 public class HomeController : Controller
 {

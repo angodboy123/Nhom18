@@ -1,4 +1,4 @@
-namespace Nhom18BTL.Models;
+namespace Nhom18.Models;
 
 public class ErrorViewModel
 {
