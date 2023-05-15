@@ -13,11 +13,12 @@ namespace Nhom18.Controllers
     {
         private readonly ApplicationDbcontext _context;
 
-        public KhachhangController(ApplicationDbcontext context)
+        public KhachhangController(ApplicationDbcontext context  )
         {
             _context = context;
         }
 
+        // GET: Khachhang
         // GET: Khachhang
         public async Task<IActionResult> Index()
         {
