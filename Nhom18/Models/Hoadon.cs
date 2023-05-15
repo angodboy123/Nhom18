@@ -17,14 +17,12 @@ public class Hoadon
     public string? TenSP { get; set; }
     [ForeignKey("TenSP")]
     [Display(Name = "Sản phẩm")]
-    public Sanpham? Sanpham { get; set; }
+    public Sanpham? Sanpham { get; set;  }
     
     [Display(Name = " Số lượng ")]
     public int SoluongHD { get; set; }
     
     [DataType(DataType.Date)]
-    [Display(Name = " Ngày bán ")]
-    public DateTime Ngayban { get; set; }
-
-
+    [Display(Name = " Ngày bán ")]  
+    public DateTime Ngayban { get; set;  }
 }
