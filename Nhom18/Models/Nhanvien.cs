@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations;
 namespace Nhom18.Models;
 public class Nhanvien {
     [Key]
-    [Display( Name = "Mã NV")]
+    [Display( Name = "Mã Nhân Viên")]
     public string? MaNV { get; set;}
     [Display( Name = "Tên")]
     public string? TenNV { get; set;}

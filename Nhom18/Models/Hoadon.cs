@@ -6,7 +6,7 @@ namespace Nhom18.Models;
 public class Hoadon
 {
     [Key]
-    [Display(Name = "Mã HD")]
+    [Display(Name = "Mã Hóa Đơn")]
     public string? MaHD { get; set; }
     
     public string? TenKH { get; set; }
