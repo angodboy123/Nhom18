@@ -10,14 +10,14 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Nhom18.Migrations
 {
     [DbContext(typeof(ApplicationDbcontext))]
-    [Migration("20221206145740_Khachhang")]
-    partial class Khachhang
+    [Migration("20230517155400_Create_Tabale_Nhacungcap")]
+    partial class CreateTabaleNhacungcap
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
-            modelBuilder.HasAnnotation("ProductVersion", "7.0.0");
+            modelBuilder.HasAnnotation("ProductVersion", "7.0.1");
 
             modelBuilder.Entity("Nhom18.Models.Hoadon", b =>
                 {
