@@ -215,6 +215,8 @@ namespace Nhom18.Controllers
                             dakh.TenNCC = dt.Rows[i][1].ToString();
                             dakh.SdtNCC = dt.Rows[i][2].ToString();
                             dakh.DiachiNCC = dt.Rows[i][3].ToString();
+                            dakh.EmailNCC = dt.Rows[i][4].ToString();
+
                            
 
                             _context.Nhacungcap.Add(dakh);

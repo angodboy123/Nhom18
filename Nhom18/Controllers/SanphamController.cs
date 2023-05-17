@@ -13,6 +13,7 @@ namespace Nhom18.Controllers
     public class SanphamController : Controller
     {
         private readonly ApplicationDbcontext _context;
+          private ExcelProcess _excelProcess = new ExcelProcess();
         private StringProcess strPro = new StringProcess();
 
         public SanphamController(ApplicationDbcontext context)
@@ -179,5 +180,48 @@ namespace Nhom18.Controllers
         {
           return (_context.Sanpham?.Any(e => e.MaSP == id)).GetValueOrDefault();
         }
+        public async Task<IActionResult> Upload()
+        {
+            return View();
+        }
+    [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Upload(IFormFile file)
+        {
+            if (file != null)
+            {
+                string fileExtension = Path.GetExtension(file.FileName);
+                if (fileExtension != ".xls" && fileExtension != ".xlsx")
+                {
+                    ModelState.AddModelError("", "Please choose excel file to upload!");
+                }
+                else
+                {
+                    var FileName = DateTime.Now.ToShortTimeString() + fileExtension;
+                    var filePath = Path.Combine(Directory.GetCurrentDirectory() + "/Uploads/Excels", FileName);
+                    var fileLocation = new FileInfo(filePath).ToString();
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        //save file to sever
+                        await file.CopyToAsync(stream);
+                        var dt = _excelProcess.ExcelToDataTable(fileLocation);
+                        for (int i = 0; i < dt.Rows.Count; i++)
+                        {
+                            var sp = new Sanpham();
+
+                            sp.MaSP = dt.Rows[i][0].ToString();
+                            sp.TenSP = dt.Rows[i][1].ToString();
+                            sp.GiaSP = dt.Rows[i][2].ToString();
+                          
+                           
+
+                            _context.Sanpham.Add(sp);
+                        }
+                        await _context.SaveChangesAsync();
+                        return RedirectToAction(nameof(Index));
+                    }
+                }
+            }
+            return View();
     }
-}
+    }}
