@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Nhom18.Migrations
 {
     /// <inheritdoc />
-    public partial class CreateTabaleKhachHang : Migration
+    public partial class CreateTabaleSanpham : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -62,7 +62,7 @@ namespace Nhom18.Migrations
                 {
                     MaSP = table.Column<string>(type: "TEXT", nullable: false),
                     TenSP = table.Column<string>(type: "TEXT", nullable: true),
-                    GiaSP = table.Column<decimal>(type: "TEXT", nullable: false)
+                    GiaSP = table.Column<string>(type: "TEXT", nullable: true)
                 },
                 constraints: table =>
                 {

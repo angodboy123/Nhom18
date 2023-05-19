@@ -24,3 +24,11 @@ body {
   color: #000000;
   text-align:center;
   }
+  .container-fluid{
+    background-color: rgb(211, 211, 211);
+  }
+  .navbar-light .navbar-brand {
+    color: rgba(0, 0, 0, 0.9);
+    
+    
+}

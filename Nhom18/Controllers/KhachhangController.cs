@@ -6,12 +6,16 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Nhom18.Models;
+using Nhom18.Models.Process;
 
 namespace Nhom18.Controllers
 {
     public class KhachhangController : Controller
     {
         private readonly ApplicationDbcontext _context;
+        private StringProcess strPro = new StringProcess();
+
+        
 
         public KhachhangController(ApplicationDbcontext context  )
         {
@@ -46,10 +50,19 @@ namespace Nhom18.Controllers
         }
 
         // GET: Khachhang/Create
-        public IActionResult Create()
+         public IActionResult Create()
         {
+            var IDdautien = "KH01";
+            var countAn = _context.Khachhang.Count();
+            if (countAn > 0)
+            {
+                var MaKH = _context.Khachhang.OrderByDescending(m => m.MaKH).First().MaKH;
+                IDdautien = strPro.AutoGenerateCode(MaKH);
+            }
+            ViewBag.newID = IDdautien;
             return View();
         }
+
 
         // POST: Khachhang/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.

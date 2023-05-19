@@ -29,18 +29,30 @@ namespace Nhom18.Controllers
         //                   View(await _context.Nhacungcap.ToListAsync()) :
         //                   Problem("Entity set 'ApplicationDbcontext.Nhacungcap'  is null.");
         // }
-        public async Task<IActionResult> Index(string searchString)
+         // GET: Link
+        public ActionResult Index(string SearchString)
         {
-            var Nhacungcap = from m in _context.Nhacungcap
-                select m;
+            var Nhacungcap = from l in _context.Nhacungcap // lấy toàn bộ liên kết
+                        select l;
 
-            if (!String.IsNullOrEmpty(searchString))
+            if (!String.IsNullOrEmpty(SearchString)) // kiểm tra chuỗi tìm kiếm có rỗng/null hay không
             {
-                Nhacungcap = Nhacungcap.Where(s => s.TenNCC!.Contains(searchString));
-                }
-
-            return View(await Nhacungcap.ToListAsync());
+                Nhacungcap = Nhacungcap.Where(s => s.SdtNCC.Contains(SearchString)); //lọc theo chuỗi tìm kiếm
+            }
+            return View(Nhacungcap);
         }
+        // public async Task<IActionResult> Index(string searchString)
+        // {
+        //     var Nhacungcap = from m in _context.Nhacungcap
+        //         select m;
+
+        //     if (!String.IsNullOrEmpty(searchString))
+        //     {
+        //         Nhacungcap = Nhacungcap.Where(s => s.SdtNCC!.Contains(searchString));
+        //         }
+
+        //     return View(await Nhacungcap.ToListAsync());
+        // }
 
         // GET: Nhacungcap/Details/5
         public async Task<IActionResult> Details(string id)
@@ -64,8 +76,8 @@ namespace Nhom18.Controllers
         public IActionResult Create()
         {
             var IDdautien = "NCC01";
-            var countAnh = _context.Nhacungcap.Count();
-            if (countAnh > 0)
+            var countAn = _context.Nhacungcap.Count();
+            if (countAn > 0)
             {
                 var MaNCC = _context.Nhacungcap.OrderByDescending(m => m.MaNCC).First().MaNCC;
                 IDdautien = strPro.AutoGenerateCode(MaNCC);

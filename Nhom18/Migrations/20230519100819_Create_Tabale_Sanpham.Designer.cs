@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Nhom18.Migrations
 {
     [DbContext(typeof(ApplicationDbcontext))]
-    [Migration("20230517155443_Create_Tabale_Nhanvien")]
-    partial class CreateTabaleNhanvien
+    [Migration("20230519100819_Create_Tabale_Sanpham")]
+    partial class CreateTabaleSanpham
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -147,7 +147,7 @@ namespace Nhom18.Migrations
                     b.Property<string>("MaSP")
                         .HasColumnType("TEXT");
 
-                    b.Property<decimal>("GiaSP")
+                    b.Property<string>("GiaSP")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("TenSP")

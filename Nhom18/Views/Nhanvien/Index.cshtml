@@ -3,17 +3,24 @@
 @{
     ViewData["Title"] = "Index";
 }
-<h1 class="iphonh1"> Hệ Thống Quản Lí Bán Đồ Điện Tử </h1>
+@* <h1 class="iphonh1"> Hệ Thống Quản Lí Bán Đồ Điện Tử </h1> *@
 
 
-<h2>Danh sách Nhân viên</h2>
+<h1 style="text-align:center;">Danh sách Nhân viên</h1>
 
 <p>
-    <a asp-action="Create">Thêm Nhân viên</a>
+    <a asp-action="Create" style=" text-decoration: none;   color: rgba(0, 0, 0, 0.9); font-weight: 800; ">Thêm Nhân viên</a>
 </p>
 <p>
-    <a asp-action="Upload">Upload</a>
+    <a asp-action="Upload" style=" text-decoration: none; color: rgba(0, 0, 0, 0.9); font-weight: 800; background-color: rgb(255, 0, 0); ">Upload ⬆</a>
 </p>
+
+    <form asp-controller="Nhanvien" asp-action="Index">
+    <p>
+        Tiêu đề: <input type="text" name="SearchString" />
+        <input type="submit" value="Lọc" />
+    </p>
+</form>
 <table class="table">
     <thead>
         <tr>

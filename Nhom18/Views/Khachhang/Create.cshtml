@@ -14,7 +14,7 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="MaKH" class="control-label">Mã Khách Hàng</label>
-                <input asp-for="MaKH" class="form-control" />
+                <input asp-for="MaKH"  required="#" class="form-control" />
                 <span asp-validation-for="MaKH" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -24,12 +24,12 @@
             </div>
             <div class="form-group">
                 <label asp-for="NgaysinhKH" class="control-label"></label>
-                <input asp-for="NgaysinhKH" class="form-control" />
+                <input asp-for="NgaysinhKH"   class="form-control" />
                 <span asp-validation-for="NgaysinhKH" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="DiachiKH" class="control-label"></label>
-                <input asp-for="DiachiKH" class="form-control" />
+                <input asp-for="DiachiKH" required="#"  class="form-control" />
                 <span asp-validation-for="DiachiKH" class="text-danger"></span>
             </div>
             <div class="form-group">

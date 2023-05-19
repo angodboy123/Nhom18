@@ -22,12 +22,18 @@ namespace Nhom18.Controllers
         }
 
         // GET: Nhanvien
-        public async Task<IActionResult> Index()
+       public ActionResult Index(string SearchString)
         {
-              return _context.Nhanvien != null ? 
-                          View(await _context.Nhanvien.ToListAsync()) :
-                          Problem("Entity set 'ApplicationDbcontext.Nhanvien'  is null.");
+            var Nhanvien = from l in _context.Nhanvien // lấy toàn bộ liên kết
+                        select l;
+
+            if (!String.IsNullOrEmpty(SearchString)) // kiểm tra chuỗi tìm kiếm có rỗng/null hay không
+            {
+                Nhanvien = Nhanvien.Where(s => s.TenNV.Contains(SearchString)); //lọc theo chuỗi tìm kiếm
+            }
+            return View(Nhanvien);
         }
+    
 
         // GET: Nhanvien/Details/5
         public async Task<IActionResult> Details(string id)

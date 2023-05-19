@@ -56,8 +56,8 @@ namespace Nhom18.Controllers
             ViewData["TenSP"] = new SelectList(_context.Sanpham, "MaSP", "TenSP");
 
             var IDdautien = "IDNH01";
-            var countAnh = _context.Nhaphang.Count();
-            if (countAnh > 0)
+            var countAn = _context.Nhaphang.Count();
+            if (countAn > 0)
             {
                 var IDNH = _context.Nhaphang.OrderByDescending(m => m.IDNH).First().IDNH;
                 IDdautien = strPro.AutoGenerateCode(IDNH);

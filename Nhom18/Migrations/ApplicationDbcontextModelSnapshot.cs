@@ -144,7 +144,7 @@ namespace Nhom18.Migrations
                     b.Property<string>("MaSP")
                         .HasColumnType("TEXT");
 
-                    b.Property<decimal>("GiaSP")
+                    b.Property<string>("GiaSP")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("TenSP")

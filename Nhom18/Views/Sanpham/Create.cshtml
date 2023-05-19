@@ -14,17 +14,17 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="MaSP" class="control-label"></label>
-                <input asp-for="MaSP" class="form-control" value = "@ViewBag.newID" />
+                <input asp-for="MaSP" class="form-control" required="#" value = "@ViewBag.newID" />
                 <span asp-validation-for="MaSP" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="TenSP" class="control-label"></label>
-                <input asp-for="TenSP" class="form-control" />
+                <input asp-for="TenSP" required="#" class="form-control" />
                 <span asp-validation-for="TenSP" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="GiaSP" class="control-label"></label>
-                <input asp-for="GiaSP" class="form-control" />
+                <input asp-for="GiaSP" required="#" class="form-control" />
                 <span asp-validation-for="GiaSP" class="text-danger"></span>
             </div>
             <div class="form-group">

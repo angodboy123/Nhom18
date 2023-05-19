@@ -62,8 +62,8 @@ namespace Nhom18.Controllers
         public IActionResult Create()
         {
             var IDdautien = "SP01";
-            var countAnh = _context.Sanpham.Count();
-            if (countAnh > 0)
+            var countAn = _context.Sanpham.Count();
+            if (countAn > 0)
             {
                 var MaSP = _context.Sanpham.OrderByDescending(m => m.MaSP).First().MaSP;
                 IDdautien = strPro.AutoGenerateCode(MaSP);

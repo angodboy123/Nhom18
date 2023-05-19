@@ -3,16 +3,16 @@
 @{
     ViewData["Title"] = "Index";
 }
-<h1 class="iphonh1" Hệ Thống Quản Lí Bán Đồ Điện Tử </h1>
+@* <h1 class="iphonh1" Hệ Thống Quản Lí Bán Đồ Điện Tử </h1> *@
 
 
-<h2>Danh sách Nhà cung cấp</h2>
+<h1 style="text-align:center;">Danh Sách Nhà Cung Cấp</h1>
 
 <p>
-    <a asp-action="Create">Thêm Nhà cung cấp</a>
+    <a asp-action="Create"   style=" text-decoration: none;   color: rgba(0, 0, 0, 0.9); font-weight: 800; ">Thêm Nhà cung cấp</a>
 </p>
 <p>
-    <a asp-action="Upload">Upload</a>
+    <a asp-action="Upload" style=" text-decoration: none; color: rgba(0, 0, 0, 0.9); font-weight: 800; background-color: rgb(255, 0, 0); " >Upload ⬆ </a>
 </p>
 <form asp-controller="Nhacungcap" asp-action="Index">
     <p>
