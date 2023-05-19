@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Nhom18.Migrations
 {
     [DbContext(typeof(ApplicationDbcontext))]
-    [Migration("20230519100819_Create_Tabale_Sanpham")]
+    [Migration("20230519133441_Create_Tabale_Sanpham")]
     partial class CreateTabaleSanpham
     {
         /// <inheritdoc />
