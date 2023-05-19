@@ -22,14 +22,14 @@ namespace Nhom18.Controllers
         }
 
         // GET: Nhanvien
-       public ActionResult Index(string SearchString)
+       public ActionResult Index(string id)
         {
-            var Nhanvien = from l in _context.Nhanvien // lấy toàn bộ liên kết
-                        select l;
+            var Nhanvien = from b in _context.Nhanvien // lấy toàn bộ liên kết
+                        select b;
 
-            if (!String.IsNullOrEmpty(SearchString)) // kiểm tra chuỗi tìm kiếm có rỗng/null hay không
+            if (!String.IsNullOrEmpty(id)) // kiểm tra chuỗi tìm kiếm có rỗng/null hay không
             {
-                Nhanvien = Nhanvien.Where(s => s.TenNV.Contains(SearchString)); //lọc theo chuỗi tìm kiếm
+                Nhanvien = Nhanvien.Where(s => s.TenNV.Contains(id)); //lọc theo chuỗi tìm kiếm
             }
             return View(Nhanvien);
         }
@@ -38,7 +38,7 @@ namespace Nhom18.Controllers
         // GET: Nhanvien/Details/5
         public async Task<IActionResult> Details(string id)
         {
-            if (id == null || _context.Nhanvien == null)
+            if (id == null || _context.Nhanvien == null) 
             {
                 return NotFound();
             }
@@ -54,6 +54,8 @@ namespace Nhom18.Controllers
         }
 
         // GET: Nhanvien/Create
+        // GET: Nhanvien/Create
+
         public IActionResult Create()
         {
             var IDdautien = "NV01";
