@@ -12,7 +12,7 @@ public class Khachhang {
     [Display( Name = "Ngày sinh")]
 
      [DataType(DataType.Date)]
-    public DateTime NgaysinhKH {get; set;}
+    public DateTime NgaysinhKH {get; set; }
     [Display( Name = "Địa chỉ")]
     public string? DiachiKH { get; set;}
 }

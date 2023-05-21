@@ -16,7 +16,7 @@ namespace Nhom18.Controllers
           private ExcelProcess _excelProcess = new ExcelProcess();
         private StringProcess strPro = new StringProcess();
 
-        public SanphamController(ApplicationDbcontext context)
+        public SanphamController(ApplicationDbcontext context )
         {
             _context = context;
         }

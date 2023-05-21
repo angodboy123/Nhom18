@@ -7,6 +7,6 @@ public class Sanpham {
     [Display(Name = "Sản phẩm")]
     public string? TenSP { get; set;}
     [Display(Name = "Giá")]
-    public string? GiaSP { get; set;}
+    public string? GiaSP { get; set; }
 
 }

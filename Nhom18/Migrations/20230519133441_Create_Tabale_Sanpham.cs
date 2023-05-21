@@ -9,7 +9,7 @@ namespace Nhom18.Migrations
     public partial class CreateTabaleSanpham : Migration
     {
         /// <inheritdoc />
-        protected override void Up(MigrationBuilder migrationBuilder)
+        protected override void Up(MigrationBuilder migrationBuilder )
         {
             migrationBuilder.CreateTable(
                 name: "Khachhang",

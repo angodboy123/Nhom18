@@ -13,7 +13,7 @@ namespace Nhom18.Controllers
     public class KhachhangController : Controller
     {
         private readonly ApplicationDbcontext _context;
-        private StringProcess strPro = new StringProcess();
+        private StringProcess strPro = new StringProcess( );
 
         
 
