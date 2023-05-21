@@ -11200,19 +11200,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\An\\.nuget\\packages\\": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\An\\Desktop\\Nhom18BTL\\Nhom18\\Nhom18\\Nhom18.csproj",
+      "projectUniqueName": "C:\\Nhom18\\Nhom18\\Nhom18\\Nhom18.csproj",
       "projectName": "Nhom18",
-      "projectPath": "C:\\Users\\An\\Desktop\\Nhom18BTL\\Nhom18\\Nhom18\\Nhom18.csproj",
-      "packagesPath": "C:\\Users\\An\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\An\\Desktop\\Nhom18BTL\\Nhom18\\Nhom18\\obj\\",
+      "projectPath": "C:\\Nhom18\\Nhom18\\Nhom18\\Nhom18.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Nhom18\\Nhom18\\Nhom18\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\An\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
