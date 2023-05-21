@@ -3,9 +3,7 @@
 @{
     ViewData["Title"] = "Index";
 }
-<h1 class="iphonh1"> Hệ Thống Quản Lí Bán Đồ Điện Tử </h1>
-
-<h2>Danh sách Sản phẩm</h2>
+<h1 class="iphonh1" style="text-align:center;"> Danh sách Sản phẩm </h1>
 
 <p>
     <a asp-action="Create"  style=" text-decoration: none;   color: rgba(0, 0, 0, 0.9); font-weight: 800; ">Thêm Sản phẩm mới</a>
@@ -47,9 +45,9 @@
                 @Html.DisplayFor(modelItem => item.GiaSP)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.MaSP">Sửa</a> |
-                <a asp-action="Details" asp-route-id="@item.MaSP">Thông Tin</a> |
-                <a asp-action="Delete" asp-route-id="@item.MaSP">Xóa</a>
+                <a asp-action="Edit" asp-route-id="@item.MaSP" style=" text-decoration: none; color: rgba(0, 0, 0, 0.9); font-weight: 700;  " >Sửa</a> |
+                <a asp-action="Details" asp-route-id="@item.MaSP" style=" text-decoration: none; color: rgba(0, 0, 0, 0.9); font-weight: 700;  ">Thông Tin</a> |
+                <a asp-action="Delete" asp-route-id="@item.MaSP" style=" text-decoration: none; color: rgba(0, 0, 0, 0.9); font-weight: 700;  ">Xóa</a>
             </td>
         </tr>
 }

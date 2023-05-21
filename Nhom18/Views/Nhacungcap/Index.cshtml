@@ -43,7 +43,7 @@
     </thead>
     <tbody>
 @foreach (var item in Model) {
-        <tr>
+        <tr >
             <td>
                 @Html.DisplayFor(modelItem => item.MaNCC)
             </td>
@@ -56,13 +56,13 @@
             <td>
                 @Html.DisplayFor(modelItem => item.DiachiNCC)
             </td>
-            <td>
+            <td >
                 @Html.DisplayFor(modelItem => item.EmailNCC)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.MaNCC">Sửa</a> |
-                <a asp-action="Details" asp-route-id="@item.MaNCC">Thông Tin</a> |
-                <a asp-action="Delete" asp-route-id="@item.MaNCC">Xóa</a>
+                <a asp-action="Edit" asp-route-id="@item.MaNCC" style=" text-decoration: none; color: rgba(0, 0, 0, 0.9); font-weight: 700;  ">Sửa</a> |
+                <a asp-action="Details" asp-route-id="@item.MaNCC" style=" text-decoration: none; color: rgba(0, 0, 0, 0.9); font-weight: 700; ">Thông Tin</a> |
+                <a asp-action="Delete" asp-route-id="@item.MaNCC" style=" text-decoration: none; color: rgba(0, 0, 0, 0.9); font-weight: 700; ">Xóa</a>
             </td>
         </tr>
 }
