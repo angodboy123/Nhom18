@@ -9,169 +9,169 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Nhom18
 build_property.RootNamespace = Nhom18
-build_property.ProjectDir = C:\Users\An\Desktop\Nhom18BTL\Nhom18\Nhom18\
+build_property.ProjectDir = C:\Users\An Nguyen\Desktop\Nhom18BTL\Nhom18\Nhom18\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\An\Desktop\Nhom18BTL\Nhom18\Nhom18
+build_property.MSBuildProjectDirectory = C:\Users\An Nguyen\Desktop\Nhom18BTL\Nhom18\Nhom18
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/An/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Hoadon/Create.cshtml]
+[C:/Users/An Nguyen/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Hoadon/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9hZG9uXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/An/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Hoadon/Delete.cshtml]
+[C:/Users/An Nguyen/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Hoadon/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9hZG9uXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/An/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Hoadon/Details.cshtml]
+[C:/Users/An Nguyen/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Hoadon/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9hZG9uXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/An/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Hoadon/Edit.cshtml]
+[C:/Users/An Nguyen/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Hoadon/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9hZG9uXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/An/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Hoadon/Index.cshtml]
+[C:/Users/An Nguyen/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Hoadon/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9hZG9uXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/An/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Home/Index.cshtml]
+[C:/Users/An Nguyen/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/An/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Home/Privacy.cshtml]
+[C:/Users/An Nguyen/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/An/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Khachhang/Create.cshtml]
+[C:/Users/An Nguyen/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Khachhang/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hoYW5nXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/An/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Khachhang/Delete.cshtml]
+[C:/Users/An Nguyen/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Khachhang/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hoYW5nXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/An/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Khachhang/Details.cshtml]
+[C:/Users/An Nguyen/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Khachhang/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hoYW5nXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/An/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Khachhang/Edit.cshtml]
+[C:/Users/An Nguyen/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Khachhang/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hoYW5nXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/An/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Khachhang/Index.cshtml]
+[C:/Users/An Nguyen/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Khachhang/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hoYW5nXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/An/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Nhacungcap/Create.cshtml]
+[C:/Users/An Nguyen/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Nhacungcap/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhY3VuZ2NhcFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/An/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Nhacungcap/Delete.cshtml]
+[C:/Users/An Nguyen/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Nhacungcap/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhY3VuZ2NhcFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/An/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Nhacungcap/Details.cshtml]
+[C:/Users/An Nguyen/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Nhacungcap/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhY3VuZ2NhcFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/An/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Nhacungcap/Edit.cshtml]
+[C:/Users/An Nguyen/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Nhacungcap/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhY3VuZ2NhcFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/An/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Nhacungcap/Index.cshtml]
+[C:/Users/An Nguyen/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Nhacungcap/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhY3VuZ2NhcFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/An/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Nhacungcap/Upload.cshtml]
+[C:/Users/An Nguyen/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Nhacungcap/Upload.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhY3VuZ2NhcFxVcGxvYWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/An/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Nhanvien/Create.cshtml]
+[C:/Users/An Nguyen/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Nhanvien/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhbnZpZW5cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/An/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Nhanvien/Delete.cshtml]
+[C:/Users/An Nguyen/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Nhanvien/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhbnZpZW5cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/An/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Nhanvien/Details.cshtml]
+[C:/Users/An Nguyen/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Nhanvien/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhbnZpZW5cRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/An/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Nhanvien/Edit.cshtml]
+[C:/Users/An Nguyen/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Nhanvien/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhbnZpZW5cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/An/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Nhanvien/Index.cshtml]
+[C:/Users/An Nguyen/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Nhanvien/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhbnZpZW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/An/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Nhanvien/Upload.cshtml]
+[C:/Users/An Nguyen/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Nhanvien/Upload.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhbnZpZW5cVXBsb2FkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/An/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Nhaphang/Create.cshtml]
+[C:/Users/An Nguyen/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Nhaphang/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhcGhhbmdcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/An/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Nhaphang/Delete.cshtml]
+[C:/Users/An Nguyen/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Nhaphang/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhcGhhbmdcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/An/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Nhaphang/Details.cshtml]
+[C:/Users/An Nguyen/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Nhaphang/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhcGhhbmdcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/An/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Nhaphang/Edit.cshtml]
+[C:/Users/An Nguyen/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Nhaphang/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhcGhhbmdcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/An/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Nhaphang/Index.cshtml]
+[C:/Users/An Nguyen/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Nhaphang/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhcGhhbmdcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/An/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Sanpham/Create.cshtml]
+[C:/Users/An Nguyen/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Sanpham/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FucGhhbVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/An/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Sanpham/Delete.cshtml]
+[C:/Users/An Nguyen/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Sanpham/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FucGhhbVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/An/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Sanpham/Details.cshtml]
+[C:/Users/An Nguyen/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Sanpham/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FucGhhbVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/An/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Sanpham/Edit.cshtml]
+[C:/Users/An Nguyen/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Sanpham/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FucGhhbVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/An/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Sanpham/Index.cshtml]
+[C:/Users/An Nguyen/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Sanpham/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FucGhhbVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/An/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Sanpham/Upload.cshtml]
+[C:/Users/An Nguyen/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Sanpham/Upload.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FucGhhbVxVcGxvYWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/An/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Shared/Error.cshtml]
+[C:/Users/An Nguyen/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/An/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/An Nguyen/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/An/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/_ViewImports.cshtml]
+[C:/Users/An Nguyen/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/An/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/_ViewStart.cshtml]
+[C:/Users/An Nguyen/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/An/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Shared/_Layout.cshtml]
+[C:/Users/An Nguyen/Desktop/Nhom18BTL/Nhom18/Nhom18/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-lzzawungih
