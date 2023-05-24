@@ -5,8 +5,16 @@
       "PackagePath": "staticwebassets\\Nhom18.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\An Nguyen\\Desktop\\Nhom18BTL\\Nhom18\\Nhom18\\wwwroot\\Image\\img_snowtops.jpg",
+      "PackagePath": "staticwebassets\\Image\\img_snowtops.jpg"
+    },
+    {
       "Id": "C:\\Users\\An Nguyen\\Desktop\\Nhom18BTL\\Nhom18\\Nhom18\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\An Nguyen\\Desktop\\Nhom18BTL\\Nhom18\\Nhom18\\wwwroot\\css\\w3schools.css",
+      "PackagePath": "staticwebassets\\css\\w3schools.css"
     },
     {
       "Id": "C:\\Users\\An Nguyen\\Desktop\\Nhom18BTL\\Nhom18\\Nhom18\\wwwroot\\favicon.ico",

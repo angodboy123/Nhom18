@@ -6,23 +6,23 @@
 
 
 
-<h1 style="text-align:center;">Danh Sách Nhà Cung Cấp</h1>
+<h1 style="text-align:center;"class="w3-animate-top">Danh Sách Nhà Cung Cấp</h1>
 
 <p>
-    <a asp-action="Create"   style=" text-decoration: none;   color: rgba(0, 0, 0, 0.9); font-weight: 800; ">Thêm Nhà cung cấp</a>
+    <a asp-action="Create"    class="w3-btn w3-round-xxlarge w3-button w3-purple">Thêm Nhà cung cấp</a>
 </p>
 <p>
-    <a asp-action="Upload" style=" text-decoration: none; color: rgba(0, 0, 0, 0.9); font-weight: 800; background-color: rgb(255, 0, 0); " >Upload ⬆ </a>
+    <a asp-action="Upload"  class="w3-btn w3-round-xxlarge w3-button w3-purple" >Upload ⬆ </a>
 </p>
 <form asp-controller="Nhacungcap" asp-action="Index">
     <p>
         Tiêu đề: <input type="text" name="SearchString" />
-        <input type="submit" value="Tìm Kiếm" />
+        <input type="submit" value="🔎" />
     </p>
 </form>
-<table class="table">
+<table class="w3-table-all w3-card-4">
     <thead>
-        <tr>
+        <tr  class="w3-hover-black">
             <th>
                 @Html.DisplayNameFor(model => model.MaNCC)
             </th>
@@ -43,7 +43,7 @@
     </thead>
     <tbody>
 @foreach (var item in Model) {
-        <tr >
+        <tr class="w3-hover-blue">
             <td>
                 @Html.DisplayFor(modelItem => item.MaNCC)
             </td>

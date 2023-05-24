@@ -4,14 +4,14 @@
     ViewData["Title"] = "Index";
 }
 
-<h1 style="text-align:center;">Danh sách Khách hàng</h1>
+<h1 style="text-align:center;"class="w3-animate-right">Danh sách Khách hàng</h1>
 
 <p>
     <a asp-action="Create" style=" text-decoration: none;   color: rgba(0, 0, 0, 0.9); font-weight: 800; color: rgb(61, 11, 11); ">Thêm Khách hàng mới</a>
 </p>
-<table class="table">
+<table class="w3-table-all w3-card-4">
     <thead>
-        <tr>
+        <tr  class="w3-hover-black">
             <th>
                 @Html.DisplayNameFor(model => model.MaKH)
             </th>
@@ -29,7 +29,7 @@
     </thead>
     <tbody>
 @foreach (var item in Model) {
-        <tr>
+        <tr class="w3-hover-blue"> 
             <td>
                 @Html.DisplayFor(modelItem => item.MaKH)
             </td>

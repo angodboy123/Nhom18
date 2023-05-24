@@ -3,24 +3,24 @@
 @{
     ViewData["Title"] = "Index";
 }
-<h1 style="text-align:center;"> Danh sách Sản phẩm </h1>
+<h1 style="text-align:center;" class="w3-animate-right"> Danh sách Sản phẩm </h1>
 
 <p>
-    <a asp-action="Create"  style=" text-decoration: none;   color: rgba(0, 0, 0, 0.9); font-weight: 800; ">Thêm Sản phẩm mới</a>
+    <a asp-action="Create"  class="w3-btn w3-round-xxlarge w3-button w3-purple">Thêm Sản phẩm mới</a>
 </p>
 <form asp-controller="SanPham" asp-action="Index">
     <p>
         <p>
-    <a asp-action="Upload" style=" text-decoration: none; color: rgba(0, 0, 0, 0.9); font-weight: 800; background-color: rgb(255, 0, 0); ">Upload ⬆</a>
+    <a asp-action="Upload" class="w3-btn w3-round-xxlarge w3-button w3-purple" >Upload ⬆</a>
 </p>
-        Tiêu đề: <input type="text" name="SearchString" />
-        <input type="submit" value="Tìm Kiếm" />
+        Tiêu đề: <input type="text" name="SearchString" class="w3-button w3-white w3-border w3-border-red w3-round-large" />
+        <input type="submit" value="🔎" class="w3-button w3-white w3-border w3-border-red w3-round-large" />
     </p>
 </form>
-<table class="table">
+<table class="w3-table-all w3-card-4">
     <thead>
-        <tr>
-            <th>
+        <tr  class="w3-hover-black">
+            <th >
                 @Html.DisplayNameFor(model => model.MaSP)
             </th>
             <th>
@@ -34,7 +34,7 @@
     </thead>
     <tbody>
 @foreach (var item in Model) {
-        <tr>
+        <tr class="w3-hover-blue">
             <td>
                 @Html.DisplayFor(modelItem => item.MaSP)
             </td>
@@ -45,9 +45,9 @@
                 @Html.DisplayFor(modelItem => item.GiaSP)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.MaSP" style=" text-decoration: none; color: rgba(0, 0, 0, 0.9); font-weight: 700;  " >Sửa</a> |
-                <a asp-action="Details" asp-route-id="@item.MaSP" style=" text-decoration: none; color: rgba(0, 0, 0, 0.9); font-weight: 700;  ">Thông Tin</a> |
-                <a asp-action="Delete" asp-route-id="@item.MaSP" style=" text-decoration: none; color: rgba(0, 0, 0, 0.9); font-weight: 700;  ">Xóa</a>
+                <a asp-action="Edit" asp-route-id="@item.MaSP" class="w3-btn w3-round-xxlarge w3-button w3-purple" >Sửa</a> |
+                <a asp-action="Details" asp-route-id="@item.MaSP"class="w3-btn w3-round-xxlarge w3-button w3-black" >Thông Tin</a> |
+                <a asp-action="Delete" asp-route-id="@item.MaSP"  class="w3-btn w3-round-xxlarge w3-button w3-aqua">Xóa</a>
             </td>
         </tr>
 }
