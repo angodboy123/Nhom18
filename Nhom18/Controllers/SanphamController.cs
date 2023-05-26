@@ -212,10 +212,8 @@ namespace Nhom18.Controllers
                             sp.MaSP = dt.Rows[i][0].ToString();
                             sp.TenSP = dt.Rows[i][1].ToString();
                             sp.GiaSP = dt.Rows[i][2].ToString();
-                          
                            
-
-                            _context.Sanpham.Add(sp);
+                         _context.Sanpham.Add(sp);
                         }
                         await _context.SaveChangesAsync();
                         return RedirectToAction(nameof(Index));

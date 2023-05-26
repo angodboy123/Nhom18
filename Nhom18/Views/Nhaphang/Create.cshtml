@@ -4,39 +4,39 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Thông Tin</h1>
+<h1 style="text-align:center;">Thông Tin</h1>
 
-<h4>Nhập hàng</h4>
+<h2>Nhập hàng</h2>
 <hr />
-<div class="row">
-    <div class="col-md-4">
+<div >
+    <div  class="w3-container">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="IDNH" class="control-label"></label>
-                <input asp-for="IDNH" class="form-control"  value = "@ViewBag.newID"/>
+                <label asp-for="IDNH" class="w3-text-teal"></label>
+                <input asp-for="IDNH" class="w3-input w3-border w3-light-grey" value = "@ViewBag.newID"/>
                 <span asp-validation-for="IDNH" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="TenSP" class="control-label">Tên Sản Phẩm</label>
+                <label asp-for="TenSP" class="w3-text-teal">Tên Sản Phẩm</label>
                 <select asp-for="TenSP" class ="form-control" asp-items="ViewBag.TenSP"></select>
             </div>
             <div class="form-group">
-                <label asp-for="SoluongSP" class="control-label">Số Lượng Sản Phẩm</label>
-                <input asp-for="SoluongSP" class="form-control" />
+                <label asp-for="SoluongSP" class="w3-text-teal">Số Lượng Sản Phẩm</label>
+                <input asp-for="SoluongSP" class="w3-input w3-border w3-light-grey"/>
                 <span asp-validation-for="SoluongSP" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="TenNCC" class="control-label">Nhà Cung Cấp</label>
+                <label asp-for="TenNCC" class="w3-text-teal">Nhà Cung Cấp</label>
                 <select asp-for="TenNCC" class ="form-control" asp-items="ViewBag.TenNCC"></select>
             </div>
             <div class="form-group">
-                <label asp-for="TenNV" class="control-label">Tên Nhân Viên</label>
+                <label asp-for="TenNV" class="w3-text-teal">Tên Nhân Viên</label>
                 <select asp-for="TenNV" class ="form-control" asp-items="ViewBag.TenNV"></select>
             </div>
             <div class="form-group">
-                <label asp-for="NgaynhapSP" class="control-label">Ngày Nhập Sản Phẩm</label>
-                <input asp-for="NgaynhapSP" class="form-control" />
+                <label asp-for="NgaynhapSP" class="w3-text-teal">Ngày Nhập Sản Phẩm</label>
+                <input asp-for="NgaynhapSP" class="w3-input w3-border w3-light-grey"/>
                 <span asp-validation-for="NgaynhapSP" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -46,8 +46,8 @@
     </div>
 </div>
 
-<div>
-    <a asp-action="Index" style=" text-decoration: none; color: rgba(0, 0, 0, 0.9); font-weight: 700; background-color: rgb(119, 0, 255); color :#ffff;    border-bottom-radius: 50px;">Back to List</a>
+<div class="w3-padding w3-display-bottommiddle">
+    <a asp-action="Index" class="w3-btn w3-black" >Back to List</a>
 </div>
 
 @section Scripts {

@@ -4,30 +4,30 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Thông Tin</h1>
+<h1 style="text-align:center;">Thông Tin</h1>
 
-<h4>Hóa Đơn Mua Hàng</h4>
+<h2>Hóa Đơn Mua Hàng</h2>
 <hr />
-<div class="row">
-    <div class="col-md-4">
+<div >
+    <div  class="w3-container">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="MaHD" class="control-label"></label>
+                <label asp-for="MaHD" class="w3-text-teal"></label>
                 <input asp-for="MaHD" class="form-control" value = "@ViewBag.newID" />
                 <span asp-validation-for="MaHD" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="TenKH" class="control-label">Tên Khách Hàng</label>
+                <label asp-for="TenKH" class="w3-text-teal">Tên Khách Hàng</label>
                 <select asp-for="TenKH" class ="form-control" asp-items="ViewBag.TenKH"></select>
             </div>
             <div class="form-group">
-                <label asp-for="TenSP" class="control-label">Tên Sản Phẩm</label>
+                <label asp-for="TenSP" class="w3-text-teal">Tên Sản Phẩm</label>
                 <select asp-for="TenSP" class ="form-control" asp-items="ViewBag.TenSP"></select>
             </div>
             <div class="form-group">
-                <label asp-for="SoluongHD" class="control-label"></label>
-                <input asp-for="SoluongHD" class="form-control" />
+                <label asp-for="SoluongHD" class="w3-text-teal"></label>
+                <input asp-for="SoluongHD" class="w3-input w3-border w3-light-grey" />
                 <span asp-validation-for="SoluongHD" class="text-danger"></span>
             </div>
            
@@ -38,8 +38,8 @@
     </div>
 </div>
 
-<div>
-    <a asp-action="Index" style=" text-decoration: none; color: rgba(0, 0, 0, 0.9); font-weight: 700; background-color: rgb(119, 0, 255); color :#ffff;  pading-top  border-bottom-radius: 50px;">Back to List</a>
+<div class="w3-padding w3-display-middle">
+    <a asp-action="Index" class="w3-btn w3-black">Back to List</a>
 </div>
 
 @section Scripts {

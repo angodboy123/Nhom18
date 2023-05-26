@@ -9,7 +9,7 @@
     <a asp-action="Create"  class="w3-btn w3-round-xxlarge w3-button w3-purple">Thêm Sản phẩm mới</a>
 </p>
 <form asp-controller="SanPham" asp-action="Index">
-    <p>
+    <p >
         <p>
     <a asp-action="Upload" class="w3-btn w3-round-xxlarge w3-button w3-purple" >Upload ⬆</a>
 </p>
@@ -20,7 +20,7 @@
 <table class="w3-table-all w3-card-4">
     <thead>
         <tr  class="w3-hover-black">
-            <th >
+            <th  >
                 @Html.DisplayNameFor(model => model.MaSP)
             </th>
             <th>
@@ -45,11 +45,12 @@
                 @Html.DisplayFor(modelItem => item.GiaSP)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.MaSP" class="w3-btn w3-round-xxlarge w3-button w3-purple" >Sửa</a> |
-                <a asp-action="Details" asp-route-id="@item.MaSP"class="w3-btn w3-round-xxlarge w3-button w3-black" >Thông Tin</a> |
-                <a asp-action="Delete" asp-route-id="@item.MaSP"  class="w3-btn w3-round-xxlarge w3-button w3-aqua">Xóa</a>
+                <a asp-action="Edit" asp-route-id="@item.MaSP"    class="w3-button w3-white w3-border w3-border-red w3-round-large" style=" font-weight: 700;">Sửa</a> 
+                <a asp-action="Details" asp-route-id="@item.MaSP" class="w3-button w3-white w3-border w3-border-red w3-round-large" style=" font-weight: 700;">Thông Tin</a> 
+                <a asp-action="Delete" asp-route-id="@item.MaSP" class="w3-button w3-white w3-border w3-border-red w3-round-large" style=" font-weight: 700;" >Xóa</a>
             </td>
         </tr>
+        
 }
     </tbody>
 </table>

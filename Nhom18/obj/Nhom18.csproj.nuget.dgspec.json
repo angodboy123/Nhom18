@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\An Nguyen\\Desktop\\Nhom18BTL\\Nhom18\\Nhom18\\Nhom18.csproj": {}
+    "C:\\Users\\An\\Desktop\\Nhom18BTL\\Nhom18\\Nhom18\\Nhom18.csproj": {}
   },
   "projects": {
-    "C:\\Users\\An Nguyen\\Desktop\\Nhom18BTL\\Nhom18\\Nhom18\\Nhom18.csproj": {
+    "C:\\Users\\An\\Desktop\\Nhom18BTL\\Nhom18\\Nhom18\\Nhom18.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\An Nguyen\\Desktop\\Nhom18BTL\\Nhom18\\Nhom18\\Nhom18.csproj",
+        "projectUniqueName": "C:\\Users\\An\\Desktop\\Nhom18BTL\\Nhom18\\Nhom18\\Nhom18.csproj",
         "projectName": "Nhom18",
-        "projectPath": "C:\\Users\\An Nguyen\\Desktop\\Nhom18BTL\\Nhom18\\Nhom18\\Nhom18.csproj",
-        "packagesPath": "C:\\Users\\An Nguyen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\An Nguyen\\Desktop\\Nhom18BTL\\Nhom18\\Nhom18\\obj\\",
+        "projectPath": "C:\\Users\\An\\Desktop\\Nhom18BTL\\Nhom18\\Nhom18\\Nhom18.csproj",
+        "packagesPath": "C:\\Users\\An\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\An\\Desktop\\Nhom18BTL\\Nhom18\\Nhom18\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\An Nguyen\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\An\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -40,7 +40,7 @@
           "dependencies": {
             "EPPlus": {
               "target": "Package",
-              "version": "[6.1.1, )"
+              "version": "[6.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

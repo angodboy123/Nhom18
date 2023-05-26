@@ -4,32 +4,32 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Thông Tin</h1>
+<h1 style="text-align:center;">Thông Tin</h1>
 
-<h4>Khách Hàng</h4>
+<h2>Khách Hàng</h2>
 <hr />
-<div class="row">
-    <div class="col-md-4">
+<div >
+    <div  class="w3-container">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="MaKH" class="control-label">Mã Khách Hàng</label>
-                <input asp-for="MaKH"  required="#" value = "@ViewBag.newID" class="form-control" />
+                <label asp-for="MaKH" class="w3-text-teal">Mã Khách Hàng</label>
+                <input asp-for="MaKH"  required="#" value = "@ViewBag.newID" class="w3-input w3-border w3-light-grey" />
                 <span asp-validation-for="MaKH" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="TenKH" class="control-label"></label>
-                <input asp-for="TenKH" class="form-control" />
+                <label asp-for="TenKH" class="w3-text-teal"></label>
+                <input asp-for="TenKH" class="w3-input w3-border w3-light-grey" />
                 <span asp-validation-for="TenKH" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="NgaysinhKH" class="control-label"></label>
-                <input asp-for="NgaysinhKH"   class="form-control" />
+                <label asp-for="NgaysinhKH" class="w3-text-teal"></label>
+                <input asp-for="NgaysinhKH"   class="w3-input w3-border w3-light-grey" />
                 <span asp-validation-for="NgaysinhKH" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="DiachiKH" class="control-label"></label>
-                <input asp-for="DiachiKH" required="#"  class="form-control" />
+                <label asp-for="DiachiKH" class="w3-text-teal"></label>
+                <input asp-for="DiachiKH" required="#"  class="w3-input w3-border w3-light-grey" />
                 <span asp-validation-for="DiachiKH" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -39,8 +39,8 @@
     </div>
 </div>
 
-<div>
-    <a asp-action="Index" style=" text-decoration: none; color: rgba(0, 0, 0, 0.9); font-weight: 700; background-color: rgb(119, 0, 255); color :#ffff;    border-bottom-radius: 50px;">Back to List</a>
+<div class="w3-padding w3-display-bottommiddle">
+    <a asp-action="Index" class="w3-btn w3-black" >Back to List</a>
 </div>
 
 @section Scripts {

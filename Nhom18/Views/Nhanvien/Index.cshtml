@@ -16,9 +16,9 @@
 </p>
 
     <form asp-controller="Nhanvien" asp-action="Index">
-    <p>
-        Tiêu đề: <input type="text" name="id" />
-        <input type="submit" value="🔎" />
+   </p>
+        Tiêu đề: <input type="text" name="SearchString" class="w3-button w3-white w3-border w3-border-red w3-round-large" />
+        <input type="submit" value="🔎" class="w3-button w3-white w3-border w3-border-red w3-round-large" />
     </p>
 </form>
 <table   class="w3-table-all w3-card-4">
@@ -67,9 +67,9 @@
                 @Html.DisplayFor(modelItem => item.EmailNV)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.MaNV"  style=" text-decoration: none; color: rgba(0, 0, 0, 0.9); font-weight: 700;  ">Sửa</a> |
-                <a asp-action="Details" asp-route-id="@item.MaNV" style=" text-decoration: none; color: rgba(0, 0, 0, 0.9); font-weight: 700;  ">Thông Tin</a> |
-                <a asp-action="Delete" asp-route-id="@item.MaNV" style=" text-decoration: none; color: rgba(0, 0, 0, 0.9); font-weight: 700;  ">Xóa</a>
+                <a asp-action="Edit" asp-route-id="@item.MaNV" class="w3-button w3-white w3-border w3-border-red w3-round-large" style=" font-weight: 700;">Sửa</a> 
+                <a asp-action="Details" asp-route-id="@item.MaNV"class="w3-button w3-white w3-border w3-border-red w3-round-large" style=" font-weight: 700;">Thông Tin</a> 
+                <a asp-action="Delete" asp-route-id="@item.MaNV"class="w3-button w3-white w3-border w3-border-red w3-round-large" style=" font-weight: 700;">Xóa</a>
             </td>
         </tr>
 }

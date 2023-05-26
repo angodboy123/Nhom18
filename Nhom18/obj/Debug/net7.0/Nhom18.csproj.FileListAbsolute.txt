@@ -868,7 +868,6 @@ C:\Users\An\Desktop\Nhom18BTL\Nhom18\Nhom18\bin\Debug\net7.0\runtimes\win-arm\na
 C:\Users\An\Desktop\Nhom18BTL\Nhom18\Nhom18\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\An\Desktop\Nhom18BTL\Nhom18\Nhom18\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\An\Desktop\Nhom18BTL\Nhom18\Nhom18\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\An\Desktop\Nhom18BTL\Nhom18\Nhom18\bin\Debug\net7.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\An\Desktop\Nhom18BTL\Nhom18\Nhom18\bin\Debug\net7.0\runtimes\alpine-arm\native\libe_sqlite3.so
 C:\Users\An\Desktop\Nhom18BTL\Nhom18\Nhom18\bin\Debug\net7.0\runtimes\alpine-arm64\native\libe_sqlite3.so
 C:\Users\An\Desktop\Nhom18BTL\Nhom18\Nhom18\bin\Debug\net7.0\runtimes\alpine-x64\native\libe_sqlite3.so
@@ -891,7 +890,6 @@ C:\Users\An\Desktop\Nhom18BTL\Nhom18\Nhom18\bin\Debug\net7.0\runtimes\win-arm\na
 C:\Users\An\Desktop\Nhom18BTL\Nhom18\Nhom18\bin\Debug\net7.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\An\Desktop\Nhom18BTL\Nhom18\Nhom18\bin\Debug\net7.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\An\Desktop\Nhom18BTL\Nhom18\Nhom18\bin\Debug\net7.0\runtimes\win-x86\native\e_sqlite3.dll
-C:\Users\An\Desktop\Nhom18BTL\Nhom18\Nhom18\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\Users\An\Desktop\Nhom18BTL\Nhom18\Nhom18\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\An\Desktop\Nhom18BTL\Nhom18\Nhom18\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\An\Desktop\Nhom18BTL\Nhom18\Nhom18\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
@@ -1226,3 +1224,6 @@ C:\Users\An Nguyen\Desktop\Nhom18BTL\Nhom18\Nhom18\obj\Debug\net7.0\refint\Nhom1
 C:\Users\An Nguyen\Desktop\Nhom18BTL\Nhom18\Nhom18\obj\Debug\net7.0\Nhom18.pdb
 C:\Users\An Nguyen\Desktop\Nhom18BTL\Nhom18\Nhom18\obj\Debug\net7.0\Nhom18.genruntimeconfig.cache
 C:\Users\An Nguyen\Desktop\Nhom18BTL\Nhom18\Nhom18\obj\Debug\net7.0\ref\Nhom18.dll
+C:\Users\An\Desktop\Nhom18BTL\Nhom18\Nhom18\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\An\Desktop\Nhom18BTL\Nhom18\Nhom18\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\An\Desktop\Nhom18BTL\Nhom18\Nhom18\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll

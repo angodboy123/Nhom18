@@ -4,42 +4,42 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Thông Tin</h1>
+<h1 style="text-align:center;">Thông Tin</h1>
 
-<h4>Nhân viên</h4>
+<h2>Nhân viên</h2>
 <hr />
-<div class="row">
-    <div class="col-md-4">
+<div>
+    <div class="w3-container">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="MaNV" class="control-label"></label>
-                <input asp-for="MaNV" required="#" class="form-control" value = "@ViewBag.newID" />
+                <label asp-for="MaNV"  class="w3-text-teal"></label>
+                <input asp-for="MaNV" required="#" class="w3-input w3-border w3-light-grey" value = "@ViewBag.newID" />
                 <span asp-validation-for="MaNV" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="TenNV" class="control-label"></label>
-                <input asp-for="TenNV" required="#" class="form-control" />
+                <label asp-for="TenNV"  class="w3-text-teal"></label>
+                <input asp-for="TenNV" required="#" class="w3-input w3-border w3-light-grey" />
                 <span asp-validation-for="TenNV" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="NgaysinhNV" class="control-label"></label>
-                <input asp-for="NgaysinhNV" required="#" class="form-control" />
+                <label asp-for="NgaysinhNV"  class="w3-text-teal"></label>
+                <input asp-for="NgaysinhNV" required="#" class="w3-input w3-border w3-light-grey" />
                 <span asp-validation-for="NgaysinhNV" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="SdtNV" class="control-label"></label>
-                <input asp-for="SdtNV" required="#" class="form-control" />
+                <label asp-for="SdtNV"  class="w3-text-teal"></label>
+                <input asp-for="SdtNV" required="#" class="w3-input w3-border w3-light-grey" />
                 <span asp-validation-for="SdtNV" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="DiachiNV" class="control-label"></label>
-                <input asp-for="DiachiNV" required="#" class="form-control" />
+                <label asp-for="DiachiNV"  class="w3-text-teal"></label>
+                <input asp-for="DiachiNV" required="#" class="w3-input w3-border w3-light-grey" />
                 <span asp-validation-for="DiachiNV" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="EmailNV" class="control-label"></label>
-                <input asp-for="EmailNV"  required="#" class="form-control" />
+                <label asp-for="EmailNV"  class="w3-text-teal"></label>
+                <input asp-for="EmailNV"  required="#" class="w3-input w3-border w3-light-grey" />
                 <span asp-validation-for="EmailNV" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -49,8 +49,8 @@
     </div>
 </div>
 
-<div > 
-    <a asp-action="Index" class="w3-bar w3-black w3-round w3-padding-13" style="text-decoration: none;">Back to List</a>
+<div class="w3-padding w3-display-bottommiddle"> 
+    <a asp-action="Index" class="w3-btn w3-black" >Back to List</a>
 </div>
 
 @section Scripts {
