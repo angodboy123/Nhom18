@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BU9wYdINByu6jphNk2LDMe91XpUprSUjlnmUzfMmKBQ=",
+  "Hash": "bfj44lIPAZlzZj0toQ+43pE0faFzmC8AhCQCshpGPoY=",
   "Source": "Nhom18",
   "BasePath": "_content/Nhom18",
   "Mode": "Default",
@@ -102,6 +102,23 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\An\\Desktop\\Nhom18BTL\\Nhom18\\Nhom18\\wwwroot\\image\\BTL_KTTT_NHOM07.pptx",
+      "SourceId": "Nhom18",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\An\\Desktop\\Nhom18BTL\\Nhom18\\Nhom18\\wwwroot\\",
+      "BasePath": "_content/Nhom18",
+      "RelativePath": "image/BTL_KTTT_NHOM07.pptx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\BTL_KTTT_NHOM07.pptx"
+    },
+    {
       "Identity": "C:\\Users\\An\\Desktop\\Nhom18BTL\\Nhom18\\Nhom18\\wwwroot\\image\\img_snowtops.jpg",
       "SourceId": "Nhom18",
       "SourceType": "Discovered",
@@ -117,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\image\\img_snowtops.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\An\\Desktop\\Nhom18BTL\\Nhom18\\Nhom18\\wwwroot\\image\\Nhom_12_KTTT.docx",
+      "SourceId": "Nhom18",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\An\\Desktop\\Nhom18BTL\\Nhom18\\Nhom18\\wwwroot\\",
+      "BasePath": "_content/Nhom18",
+      "RelativePath": "image/Nhom_12_KTTT.docx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\Nhom_12_KTTT.docx"
     },
     {
       "Identity": "C:\\Users\\An\\Desktop\\Nhom18BTL\\Nhom18\\Nhom18\\wwwroot\\image\\p2.jpg",
