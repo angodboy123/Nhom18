@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "I6bgTVg8Hv89LSY9tAeFvdJelaeM0pA1ZkeRik4P2/E=",
+  "Hash": "BU9wYdINByu6jphNk2LDMe91XpUprSUjlnmUzfMmKBQ=",
   "Source": "Nhom18",
   "BasePath": "_content/Nhom18",
   "Mode": "Default",
@@ -102,12 +102,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\An\\Desktop\\Nhom18BTL\\Nhom18\\Nhom18\\wwwroot\\Image\\img_snowtops.jpg",
+      "Identity": "C:\\Users\\An\\Desktop\\Nhom18BTL\\Nhom18\\Nhom18\\wwwroot\\image\\img_snowtops.jpg",
       "SourceId": "Nhom18",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\An\\Desktop\\Nhom18BTL\\Nhom18\\Nhom18\\wwwroot\\",
       "BasePath": "_content/Nhom18",
-      "RelativePath": "Image/img_snowtops.jpg",
+      "RelativePath": "image/img_snowtops.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -116,7 +116,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Image\\img_snowtops.jpg"
+      "OriginalItemSpec": "wwwroot\\image\\img_snowtops.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\An\\Desktop\\Nhom18BTL\\Nhom18\\Nhom18\\wwwroot\\image\\p2.jpg",
+      "SourceId": "Nhom18",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\An\\Desktop\\Nhom18BTL\\Nhom18\\Nhom18\\wwwroot\\",
+      "BasePath": "_content/Nhom18",
+      "RelativePath": "image/p2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\p2.jpg"
     },
     {
       "Identity": "C:\\Users\\An\\Desktop\\Nhom18BTL\\Nhom18\\Nhom18\\wwwroot\\js\\site.js",

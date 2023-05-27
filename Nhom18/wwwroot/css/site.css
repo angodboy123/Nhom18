@@ -22,10 +22,17 @@ body {
 }
 
   .container-fluid{
-    background-color: rgb(211, 211, 211);
+ 
+    flex-direction: column;
+   
+    justify-content: flex-end;
+    align-content: space-between;
+    align-items: center;
+    font-weight: 700;
   }
   .navbar-light .navbar-brand {
-    color: rgba(0, 0, 0, 0.9);
+    color: rgba(41, 9, 9, 0.9);
     
     
 }
+

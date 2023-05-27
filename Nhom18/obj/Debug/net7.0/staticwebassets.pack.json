@@ -5,10 +5,6 @@
       "PackagePath": "staticwebassets\\Nhom18.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\An\\Desktop\\Nhom18BTL\\Nhom18\\Nhom18\\wwwroot\\Image\\img_snowtops.jpg",
-      "PackagePath": "staticwebassets\\Image\\img_snowtops.jpg"
-    },
-    {
       "Id": "C:\\Users\\An\\Desktop\\Nhom18BTL\\Nhom18\\Nhom18\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -19,6 +15,14 @@
     {
       "Id": "C:\\Users\\An\\Desktop\\Nhom18BTL\\Nhom18\\Nhom18\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\An\\Desktop\\Nhom18BTL\\Nhom18\\Nhom18\\wwwroot\\image\\img_snowtops.jpg",
+      "PackagePath": "staticwebassets\\image\\img_snowtops.jpg"
+    },
+    {
+      "Id": "C:\\Users\\An\\Desktop\\Nhom18BTL\\Nhom18\\Nhom18\\wwwroot\\image\\p2.jpg",
+      "PackagePath": "staticwebassets\\image\\p2.jpg"
     },
     {
       "Id": "C:\\Users\\An\\Desktop\\Nhom18BTL\\Nhom18\\Nhom18\\wwwroot\\js\\site.js",
