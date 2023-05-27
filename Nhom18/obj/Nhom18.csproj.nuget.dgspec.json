@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\An\\Desktop\\Nhom18BTL\\Nhom18\\Nhom18\\Nhom18.csproj": {}
+    "D:\\Nhom18\\Nhom18\\Nhom18\\Nhom18.csproj": {}
   },
   "projects": {
-    "C:\\Users\\An\\Desktop\\Nhom18BTL\\Nhom18\\Nhom18\\Nhom18.csproj": {
+    "D:\\Nhom18\\Nhom18\\Nhom18\\Nhom18.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\An\\Desktop\\Nhom18BTL\\Nhom18\\Nhom18\\Nhom18.csproj",
+        "projectUniqueName": "D:\\Nhom18\\Nhom18\\Nhom18\\Nhom18.csproj",
         "projectName": "Nhom18",
-        "projectPath": "C:\\Users\\An\\Desktop\\Nhom18BTL\\Nhom18\\Nhom18\\Nhom18.csproj",
-        "packagesPath": "C:\\Users\\An\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\An\\Desktop\\Nhom18BTL\\Nhom18\\Nhom18\\obj\\",
+        "projectPath": "D:\\Nhom18\\Nhom18\\Nhom18\\Nhom18.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Nhom18\\Nhom18\\Nhom18\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\An\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
